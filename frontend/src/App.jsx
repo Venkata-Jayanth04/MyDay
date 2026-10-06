@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://192.168.31.71:8000";
+const API_URL = "https://myday-backend-061d.onrender.com";
 
 // Get today's date in local time
 const getToday = () => {
