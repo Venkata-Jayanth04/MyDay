@@ -1,0 +1,30 @@
+﻿# React / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python
+backend/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
